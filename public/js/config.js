@@ -1,4 +1,4 @@
-const WS_URL = 'ws://draw-api.onrender.com';
+const WS_URL = 'wss://draw-api.onrender.com';
 
 const STATUS = {
   WIN: 'youwin',

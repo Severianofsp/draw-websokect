@@ -16,7 +16,7 @@ class App {
   }
 
   routes() {
-    this.app.use('/api/v1/draw', drawRoutes);
+    this.app.use('/', drawRoutes);
   }
 }
 
