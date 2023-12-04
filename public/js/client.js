@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://draw-api.onrender.com");
+const socket = new WebSocket("wss://draw-api.onrender.com");
 const body = document.querySelector("body");
 const logo = document.getElementById("logo");
 const messageDiv = document.getElementById("message");
