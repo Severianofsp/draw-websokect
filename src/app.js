@@ -1,6 +1,5 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import './websocket';
 import drawRoutes from './routes/drawroutes';
 
 dotenv.config();
